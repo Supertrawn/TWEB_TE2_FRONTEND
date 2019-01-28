@@ -25,7 +25,7 @@ import Vue from 'vue';
 url1 pour le local : http://localhost:5000/movies?limit=
 */
 
-let url1 = 'http://localhost:5000/movies?limit=';
+let url1 = 'https://twebte2backend.herokuapp.com/movies?limit=';
 let url2 = '&offset=';
 let urlPoster = 'https://image.tmdb.org/t/p/w500/';
 let filmByPage = 20;
