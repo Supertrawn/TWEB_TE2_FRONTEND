@@ -2,6 +2,8 @@
   <div id="app">
     <h1>TE - TWEB - Kevin Pradervand</h1>
     <p>Films {{offset}} to {{currentLast}}</p>
+    <button v-on:click="goFurther">Go further</button>
+    <button v-on:click="goBack">Go back</button>
     <ul v-if="posts && posts.length">
       <li v-for="post of posts"
           v-bind:key="post.id">
